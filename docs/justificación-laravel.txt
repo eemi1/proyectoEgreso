@@ -1,0 +1,66 @@
+<<📄 Documentación Base del Proyecto Laravel>>
+🧱 Estructura Base de Laravel
+Al instalar Laravel con:
+
+bash
+Copiar
+Editar
+composer create-project laravel/laravel nombre-proyecto
+Laravel genera una estructura base organizada en carpetas, que permite seguir el patrón MVC (Modelo-Vista-Controlador) y facilita el desarrollo escalable de aplicaciones web.
+
+<<📁 Principales carpetas:>>
+Carpeta	Propósito
+app/	Contiene la lógica de la aplicación (Modelos, Controllers).
+bootstrap/	Archivos de arranque (bootstrap app).
+config/	Archivos de configuración de la app.
+database/	Migraciones, factories y seeds.
+public/	Punto de entrada HTTP (index.php) y recursos públicos.
+resources/	Vistas Blade, archivos Tailwind/CSS, JS, etc.
+routes/	Definición de rutas web y API.
+storage/	Archivos temporales, logs, caché, etc.
+tests/	Pruebas unitarias y funcionales.
+vendor/	Librerías instaladas con Composer.
+
+<<🚀 Starter Kits prehechos>>
+Laravel ofrece opciones prearmadas para acelerar el desarrollo con funcionalidades comunes como login, registro, roles, etc. Estas se llaman starter kits, y los principales son:
+
+Starter Kit	¿Qué incluye?	Complejidad
+Laravel Breeze	Login, registro, sesiones (simple).	Básica
+Laravel Jetstream	Login, equipos, 2FA, sesiones, API.	Media/Alta
+Laravel UI	Login clásico con Bootstrap/jQuery.	Básica
+Laravel AdminLTE	Plantilla de panel de control prehecha.	Media
+
+<<📌 Nota importante:>>
+En este proyecto, no estás usando ningún starter kit prehecho como Breeze o Jetstream. Esto se deduce porque en el archivo composer.json no están presentes en la sección "require-dev".
+
+Esto significa que estás trabajando sobre una estructura base limpia de Laravel, lo cual es ideal para aprender a construir cada parte del sistema manualmente.
+
+<<🛠 Herramientas instaladas en el proyecto (require-dev)
+Laravel ya viene con varias herramientas de desarrollo listas para usar, que están en tu composer.json bajo la clave "require-dev":
+
+<<🔧 Herramientas explicadas:>>
+Paquete	Función
+fakerphp/faker	Genera datos falsos para testing o seeds.
+laravel/pail	Muestra logs en vivo desde la terminal (solo funciona en Linux).
+laravel/pint	Formatea el código PHP automáticamente (estilo PSR-12).
+laravel/sail	Entorno de desarrollo Dockerizado (para usar Laravel sin XAMPP).
+mockery/mockery	Permite simular clases en pruebas (mocking).
+nunomaduro/collision	Muestra errores más legibles en consola (debug).
+pestphp/pest	Framework moderno de testing, más limpio que PHPUnit.
+pestphp/pest-plugin-laravel	Integra Pest con Laravel (rutas, DB, etc.).
+
+⚠️ Nota sobre Pail:
+La herramienta laravel/pail requiere la extensión pcntl, que no está disponible en Windows. Por eso, al ejecutarla desde Windows aparece este error:
+
+pgsql
+Copiar
+Editar
+The [pcntl] extension is required to run Pail.
+En Windows podés simplemente ignorar esta herramienta o usar Laravel desde WSL2 o Sail (Docker) si necesitás compatibilidad total.
+
+<<📚 Conclusión>>
+Estás trabajando con una instalación base de Laravel, sin kits prearmados.
+
+Laravel ya incluye herramientas útiles para facilitar el desarrollo y las pruebas.
+
+Tenés control total sobre la estructura y podés aprender Laravel desde sus fundamentos.

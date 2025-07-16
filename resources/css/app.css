@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+.scrollbar-hide {
+    /* Para navegadores webkit (Chrome, Safari, Edge) */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    overflow: auto;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Safari y Chrome */
+    width: 0;
+    background: transparent;
+  }
+  
+  /* Ocultar scrollbar en todos los elementos */
+  * {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  *::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  
+  .boton-primario{
+      @apply bg-primary text-white rounded border-primary font-raleway; 
+      border-radius: 20px;
+      
+  }
+  
+  .boton-primario:hover{
+      @apply bg-primaryhover text-white rounded-md border-primaryhover font-raleway;
+      border-radius: 20px;
+  
+  }
+  
+  .boton-secundario{
+      @apply bg-transparent text-white border-2  border-white rounded-md font-raleway;
+      border-radius: 20px;
+  }
+  
+  .boton-secundario:hover{
+      @apply bg-primary text-white rounded-md border-primary font-raleway;
+      border-radius: 20px;
+  
+  }
