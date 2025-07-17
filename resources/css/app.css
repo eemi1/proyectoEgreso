@@ -2,30 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Estilos personalizados */
 .scrollbar-hide {
-    /* Para navegadores webkit (Chrome, Safari, Edge) */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-    overflow: auto;
-  }
-  
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;  /* Safari y Chrome */
-    width: 0;
-    background: transparent;
-  }
-  
-  /* Ocultar scrollbar en todos los elementos */
-  * {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-  }
-  
-  *::-webkit-scrollbar {
-    display: none; /* Chrome, Safari and Opera */
-  }
-  
+  /* Para navegadores webkit (Chrome, Safari, Edge) */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+  overflow: auto;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari y Chrome */
+  width: 0;
+  background: transparent;
+}
+
+.scrollbar-show {
+  -ms-overflow-style: auto;   /* IE y Edge */
+  scrollbar-width: auto;      /* Firefox */
+  overflow: auto;
+}
+.scrollbar-show::-webkit-scrollbar {
+  display: block;             /* Chrome, Safari y Opera */
+  width: initial;
+  background: initial;
+}
+
   .boton-primario{
       @apply bg-primary text-white rounded border-primary font-raleway; 
       border-radius: 20px;
@@ -48,3 +47,9 @@
       border-radius: 20px;
   
   }
+
+  .category-products{
+    @apply px-3 py-2 rounded-full hover:text-primary focus:outline-none focus:ring-1 focus:ring-primary focus:bg-primary focus:text-white
+  
+  }
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scrollbar-hide">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -72,23 +72,23 @@
 
             <div class="card-container relative">
               <img src="{{asset ('images/productos-main/producto-1.webp')}}" alt="Deli" class="w-full h-full object-cover border border-black drop-shadow-2xl">
-              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-semibold ">Más información</button>
+              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-medium ">Más información</button>
             </div>
           
             <div class="card-container relative">
               <img src="{{asset ('images/productos-main/producto-2.webp')}}" alt="Originals" class="w-full h-full object-cover border border-black drop-shadow-2xl">
-              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-semibold ">Más información</button>
+              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-medium ">Más información</button>
             </div>
 
             <div class="card-container relative" >
               <img src="{{asset ('images/productos-main/producto-3.webp')}}" alt="Holy Vegan" class="w-full h-full object-cover border border-black drop-shadow-2xl">
-              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-semibold ">Más información</button>
+              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-medium ">Más información</button>
             </div>
 
 
             <div class="card-container relative">
               <img src="{{asset ('images/productos-main/producto-4.webp')}}" alt="Minion" class="w-full h-full object-cover border border-black drop-shadow-2xl">
-              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-semibold">Más información</button>
+              <button class="absolute left-1/4 mt-2 drop-shadow-2xl card-button boton-primario px-4 py-2 border-radius-40 font-medium">Más información</button>
             </div>
 
         </div>
