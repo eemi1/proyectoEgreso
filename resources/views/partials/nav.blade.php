@@ -6,11 +6,11 @@
 
     <a href="/" class="flex justify-start w-full">
         <img src="{{ asset('images/logo.jpg') }}" id="logo" alt="logo" class="2xl:w-[60px] 2xl:h-[60px] sm:w-[50px] sm:h-[50px] object-contain">
-        <h1 class="text-primary font-raleway font-bold 2xl:text-3xl 2xl:pt-2 2xl:pl-2 sm:text-lg sm:pt-3 sm:pl-1 underline underline-offset-8 decoration-2 underline-primary whitespace-nowrap">Fory Factory</h1>
+        <h1 class="text-primary font-raleway font-bold 2xl:text-3xl 2xl:pt-2 2xl:pl-2 sm:text-lg sm:pt-3 sm:pl-1 underline underline-offset-8 decoration-2 underline-primary whitespace-nowrap xl:text-xl">Fory Factory</h1>
     </a>
 
     <!-- MENU NAVBAR -->
-      <div id="menu" class="md:flex flex-row 2xl:gap-10 items-center justify-center w-full font-raleway sm:hidden md:text-sm md:gap-4 md:pr-10">
+      <div id="menu" class="md:flex flex-row 2xl:gap-10 items-center justify-center w-full font-raleway sm:hidden md:text-sm md:gap-4 md:pr-10 xl:text-base xl:gap-6 ">
         <a href="/" class="hover:text-primary">Inicio</a>
         <a href="/productos" class="hover:text-primary">Productos</a>
         <a href="#" class="hover:text-primary">Contacto</a>

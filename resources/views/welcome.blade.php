@@ -28,12 +28,12 @@
 
         <!-- flex flex-col sirve para colocar estos elementos uno debajo del otro, -->
         <div class="absolute inset-0 flex flex-col items-center justify-start text-center gap-10 lg:mt-28">
-          <h2 id="main-title" class=" text-white font-rasa font-semibold 2xl:text-8xl md:text-6xl md:mt-20 sm:text-6xl sm:mt-20 mb-4">Descubre el sabor de la excelencia</h2>
+          <h2 id="main-title" class=" text-white font-rasa font-semibold 2xl:text-8xl md:text-6xl md:mt-20 sm:text-6xl sm:mt-20 mb-4 h800:mt-2">Descubre el sabor de la excelencia</h2>
           <p id="main-subtitle" class="text-white font-raleway text-2xl lg:text-3xl lg:w-1/2 sm:text-3xl">
             No podemos cambiar el mundo, ni las injusticias, pero sí podemos hacer que tu día tenga un final feliz con nuestras hamburguesas. ¡Este es nuestro propósito!
           </p>
 
-          <div class="flex flex-row gap-20 mt-14">
+          <div class="flex flex-row gap-20 mt-14 h800:mt-0">
             <button class="boton-primario px-6 py-3">Ver productos</button>
             <button class="boton-secundario px-6 py-3">Reserva tu mesa</button>
           </div>
@@ -44,7 +44,7 @@
           <button class="boton-secundario px-6 md:px-10 py-2 md:py-3">Reserva tu mesa</button>
         </div> -->
         
-        <div class="absolute left-0 right-0 bottom-0 flex justify-center items-center gap-10 pb-10">
+        <div class="absolute w-full right:1/2 left:1/2">
           <!-- License: PD. Made by Mary Akveo: https://maryakveo.com/ -->
           <svg fill="#000000" viewBox="0 0 39 50" id="triple-down-sign" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color animate-bounce size-40">
             <polyline id="primary" points="19 14 12 21 5 14" style="fill: none; stroke: #ffffff; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
