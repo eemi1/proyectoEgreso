@@ -28,8 +28,8 @@
 
         <!-- flex flex-col sirve para colocar estos elementos uno debajo del otro, -->
         <div class="absolute inset-0 flex flex-col items-center justify-start text-center gap-10 lg:mt-28">
-          <h2 id="main-title" class=" text-white font-rasa font-semibold text-8xl md:text-6xl mb-4">Descubre el sabor de la excelencia</h2>
-          <p id="main-subtitle" class="text-white font-raleway text-2xl lg:text-3xl lg:w-1/2">
+          <h2 id="main-title" class=" text-white font-rasa font-semibold 2xl:text-8xl md:text-6xl md:mt-20 sm:text-6xl sm:mt-20 mb-4">Descubre el sabor de la excelencia</h2>
+          <p id="main-subtitle" class="text-white font-raleway text-2xl lg:text-3xl lg:w-1/2 sm:text-3xl">
             No podemos cambiar el mundo, ni las injusticias, pero sí podemos hacer que tu día tenga un final feliz con nuestras hamburguesas. ¡Este es nuestro propósito!
           </p>
 
@@ -64,8 +64,8 @@
         <div class="absolute inset-0 bg-black bg-opacity-45"></div>
 
         <!-- Título -->
-        <div class="absolute inset-0 flex items-start justify-center lg:pt-20 ">
-          <h2 class="font-monserrat lg:text-6xl md:text-6xl text-white font-bold text-center drop-shadow-2xl">Destacados del menú🧡 </h2>
+        <div class="absolute inset-0 flex items-start justify-center lg:pt-20 sm:pt-20 ">
+          <h2 class="font-monserrat text-white font-bold text-center drop-shadow-2xl sm:text-4xl md:text-5xl lg:text-6xl">Destacados del menú🧡 </h2>
         </div>
         
         <div class="absolute inset-0 flex flex-row items-center justify-center lg:gap-16 pt-2 ">
@@ -101,12 +101,12 @@
         <!-- Overlay negro con opacidad 0.2 bg-opacity-30-->
         <div class="absolute inset-0 bg-black bg-opacity-45"></div>
 
-        <div class="absolute inset-0 flex items-start justify-center lg:pt-24 ">
-          <h2 class="font-monserrat lg:text-6xl text-white font-bold drop-shadow-2xl text-center">Dónde nos encontramos 📍</h2>
+        <div class="absolute inset-0 flex items-start justify-center lg:pt-2 ">
+          <h2 class="font-monserrat lg:text-6xl text-white font-bold drop-shadow-2xl text-center sm:text-4xl sm:pt-6 md:text-5xl">Dónde nos encontramos 📍</h2>
         </div>
 
         <div class="absolute inset-0 flex items-center justify-center lg:pt-24">
-          <iframe src="https://www.google.com/maps/d/embed?mid=1fG3krE_TuuiNkJNSXR06Kaszl87x2SM&ehbc=2E312F&noprof=1" class="lg:w-2/4 lg:h-2/3 rounded-lg shadow-white"></iframe>
+          <iframe src="https://www.google.com/maps/d/embed?mid=1fG3krE_TuuiNkJNSXR06Kaszl87x2SM&ehbc=2E312F&noprof=1" class="w-2/4 h-2/3 rounded-lg shadow-white"></iframe>
         </div>
 
 
