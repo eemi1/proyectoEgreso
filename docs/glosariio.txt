@@ -1,0 +1,8 @@
+🧠 ¿Qué significa "ORM"?
+ORM (Object-Relational Mapping) permite trabajar con la base de datos usando clases y objetos, en lugar de escribir consultas SQL directamente.
+
+Con Eloquent, cada tabla de tu base de datos tiene un modelo PHP correspondiente, y cada fila es una instancia de ese modelo.
+
+Hash: Laravel usa por defecto el algoritmo bcrypt, que es muy seguro para hashear contraseñas o datos.
+Hash::make(): Es un método del facade Hash de Laravel, que usa internamente funciones de PHP como password_hash().
+

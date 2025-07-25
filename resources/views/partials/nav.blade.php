@@ -9,15 +9,15 @@
         <h1 class="text-primary font-raleway font-bold 2xl:text-3xl 2xl:pt-2 2xl:pl-2 sm:text-lg sm:pt-3 sm:pl-1 underline underline-offset-8 decoration-2 underline-primary whitespace-nowrap xl:text-xl">Fory Factory</h1>
     </a>
 
-    <!-- MENU NAVBAR -->
-      <div id="menu" class="md:flex flex-row 2xl:gap-10 items-center justify-center w-full font-raleway sm:hidden md:text-sm md:gap-4 md:pr-10 xl:text-base xl:gap-6 ">
+    <!-- MENU MAIN -->
+      <div id="menu" class="text-black md:flex flex-row 2xl:gap-10 items-center justify-center w-full font-raleway sm:hidden md:text-sm md:gap-4 md:pr-10 xl:text-base xl:gap-6 ">
         <a href="/" class="hover:text-primary">Inicio</a>
         <a href="/productos" class="hover:text-primary">Productos</a>
         <a href="#" class="hover:text-primary">Contacto</a>
         <a href="#" class="hover:text-primary">Sobre nosotros</a>
       </div>
 
-      <!-- Menú solo visible en sm: -->
+      <!-- MENU DESPLEGABLE -->
   <div class="sm:block md:hidden relative w-48">
     <!-- Botón -->
     <button id="menu-button" class="flex items-center justify-between w-full text-sm bg-white text-gray-800 px-4 py-2 mt-2 rounded-md border border-bg-gray-200 shadow-md shadow-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-primary">

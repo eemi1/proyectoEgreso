@@ -1,12 +1,9 @@
 <<📄 Documentación Base del Proyecto Laravel>>
 🧱 Estructura Base de Laravel
 Al instalar Laravel con:
-
-bash
-Copiar
-Editar
 composer create-project laravel/laravel nombre-proyecto
-Laravel genera una estructura base organizada en carpetas, que permite seguir el patrón MVC (Modelo-Vista-Controlador) y facilita el desarrollo escalable de aplicaciones web.
+Laravel genera una estructura base organizada en carpetas, que permite seguir el patrón MVC (Modelo-Vista-Controlador) 
+y facilita el desarrollo escalable de aplicaciones web.
 
 <<📁 Principales carpetas:>>
 Carpeta	Propósito
@@ -51,10 +48,6 @@ pestphp/pest-plugin-laravel	Integra Pest con Laravel (rutas, DB, etc.).
 
 ⚠️ Nota sobre Pail:
 La herramienta laravel/pail requiere la extensión pcntl, que no está disponible en Windows. Por eso, al ejecutarla desde Windows aparece este error:
-
-pgsql
-Copiar
-Editar
 The [pcntl] extension is required to run Pail.
 En Windows podés simplemente ignorar esta herramienta o usar Laravel desde WSL2 o Sail (Docker) si necesitás compatibilidad total.
 

@@ -16,6 +16,7 @@ module.exports = {
         'rasa': ['Rasa', 'inter'],
       },
       screens:{
+        'h470': {'raw': '(max-height: 470px)'},
         'h600': {'raw': '(max-height: 600px)'},
         'h700': {'raw': '(max-height: 700px)'},
         'h800': {'raw': '(max-height: 800px)'},
